@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,700;1,700&family=Libre+Baskerville&family=Playfair+Display:wght@800&family=Poppins:wght@400;800&family=Signika+Negative:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- My Portfolio nav bar -->
+    <header>
+        <nav>
+            <div class="left">Abinash</div>
+            <div class="right">
+                <ul class="nav-links">
+                    <li class="home"><a href="/">Home</a></li>
+                    <li class="about"><a href="/">About</a></li>
+                    <li class="projects"><a href="/">Projects</a></li>
+                    <li class="services"><a href="/">Services</a></li>
+                    <li class="contact"><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- first section  -->
+    <main>
+        <section class="first-section">
+            <div class="leftsection">
+                Hi, I'm <span class="text-col"> Abinash</span> ✌️
+                <div>An Enthusiastic</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"><i class='bx bxl-github'></i> Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./images/image1-removebg-preview.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-gray">What i've done so far</span>
+            <h1>Work Experiences</h1>
+            <div class="box"></div>
+            <div class="card-box">
+                <div class="card">
+                    <img src="./images/overalll.png" class="pic1"> 
+                <h2> Web Development</h2>
+                </div>
+                <div class="card"> <img src="./images/java.png" class="pic2">
+                    <h2>Java Programming</h2>
+                </div>
+                <div class="card"> 
+                    <img src="./images/python.png" class="pic3">
+                    <h2>Python Programming</h2>
+                </div>
+                <div class="card"> </div>
+            </div>
+
+            <div class="box2"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Contact Me: 
+                <div class="first">
+                    <ul>
+                        <li><a href=""><i class='bx bxl-gmail'></i> abinashsahucrazy2020@gmail.com</a></li>
+                        <li><a href=""><i class='bx bxl-linkedin' ></i> abinash-sahu-0702a1246</a></li>
+                        <li><a href=""><i class='bx bxl-instagram' ></i> __.abinash_</a></li>
+                        <li><a href=""><i class='bx bxl-github'></i> abinash72</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-second"> Education: 
+                <div class="second">
+                    <ul>
+                        <li>🎓Institute Of Technical Education And Research, S'O'A</li>
+                        <li>🏫Shri Satya Sai Vidya Vihar</li>
+                        <li>🏫ST. Marys's Convent School</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-third">Skills: 
+                <div class="third">
+                    <ul>
+                        <li><i class='bx bxl-java'></i>Java Programming</li>
+                        <li><i class='bx bxl-python' ></i>Python Programming</li>
+                        <li><i class='bx bxl-html5'></i>Front-End Development</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>Communication</li>
+                        <li>Object-Oriented Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-rights">
+            CopyRight &#169; abinashsahuportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer!', 'Software Engineer'],
+          typeSpeed: 120,
+        });
+      </script>
+</body>
+</html>
